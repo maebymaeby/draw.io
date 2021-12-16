@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T05:31:52.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="rAXbbeVejNC5Cuuthe_m" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T05:59:31.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="j1ghbPGJ9gANM1EMymXz" version="15.9.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-1" target="OH5eANUVH6uR0RUfoNdy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-1" target="OH5eANUVH6uR0RUfoNdy-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-1" target="OH5eANUVH6uR0RUfoNdy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLOEDORwVN3XTyWQIhq8-1" value="一种构造数据集的方法" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="107.5" y="102" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-6" target="MLOEDORwVN3XTyWQIhq8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-6" target="OH5eANUVH6uR0RUfoNdy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MLOEDORwVN3XTyWQIhq8-6" value="对于单次随访记录的时序特征异常检测" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="358.25" y="397" width="206.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MLOEDORwVN3XTyWQIhq8-15" value="OR" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="632.5" y="304" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-3" target="MLOEDORwVN3XTyWQIhq8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-3" target="OH5eANUVH6uR0RUfoNdy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-3" value="一种随访记录异常检测方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="98" y="304" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-10" target="MLOEDORwVN3XTyWQIhq8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-10" target="OH5eANUVH6uR0RUfoNdy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-10" value="对于单次随访记录的横向异常检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="358.25" y="219" width="206.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-14" value="随机森林算法进行分类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381.57" y="102" width="159.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-16" target="OH5eANUVH6uR0RUfoNdy-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="461" y="622" />
+              <mxPoint x="620" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-16" target="OH5eANUVH6uR0RUfoNdy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-16" value="通过LSTM进行特征提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="387.57" y="502" width="147.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-19" target="OH5eANUVH6uR0RUfoNdy-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-19" value="LSTM提取正常数据集的特征" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="242.5" y="687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-20" target="OH5eANUVH6uR0RUfoNdy-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-20" target="OH5eANUVH6uR0RUfoNdy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-20" value="LSTM提取增加本次随访记录后该病例的总随访记录特征" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="401.37" y="687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-21" target="OH5eANUVH6uR0RUfoNdy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-21" value="数据集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="272" y="92" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-24" target="OH5eANUVH6uR0RUfoNdy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-24" value="数据集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="16" y="492" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-29" target="OH5eANUVH6uR0RUfoNdy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-29" value="&lt;span&gt;LSTM提取异常数据集的特征&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-16" target="OH5eANUVH6uR0RUfoNdy-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="586" as="sourcePoint" />
+            <mxPoint x="392" y="622" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="461" y="622" />
+              <mxPoint x="296" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-38" target="OH5eANUVH6uR0RUfoNdy-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-38" value="评估病例随访记录特征和正常特征相似度的孪生神经网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308.87" y="834" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-39" target="OH5eANUVH6uR0RUfoNdy-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-39" value="&lt;span&gt;评估病例随访记录特征和异常特征相似度的孪生神经网络&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="493.87" y="834" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-44" value="通过对比两个孪生神经网络的输出来判断是否异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="401.38" y="958" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-47" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-19" target="OH5eANUVH6uR0RUfoNdy-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="758" as="sourcePoint" />
+            <mxPoint x="437" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OH5eANUVH6uR0RUfoNdy-48" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OH5eANUVH6uR0RUfoNdy-29" target="OH5eANUVH6uR0RUfoNdy-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="758" as="sourcePoint" />
+            <mxPoint x="437" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
