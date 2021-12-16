@@ -1,39 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T07:01:35.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="T8bFDeFVV6r_wW-VsveC" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T05:31:52.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="rAXbbeVejNC5Cuuthe_m" version="15.9.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="865" dy="456" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-1" target="MLOEDORwVN3XTyWQIhq8-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-1" value="获取数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="123" y="42" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-2" target="MLOEDORwVN3XTyWQIhq8-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-2" value="清洗数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="123" y="225" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-3" target="MLOEDORwVN3XTyWQIhq8-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLOEDORwVN3XTyWQIhq8-3" target="MLOEDORwVN3XTyWQIhq8-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-3" value="处理数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="123" y="408" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-5" value="单次随访记录异常&lt;br&gt;（分类问题【传统ML】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="354" y="348" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-6" value="随访记录时序特征异常&lt;br&gt;（时序预测问题+分类问题）&lt;br&gt;【三孪生网络】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="354" y="468" width="169" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MLOEDORwVN3XTyWQIhq8-15" value="OR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="604" y="394" width="120" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
