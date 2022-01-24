@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T03:14:13.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.5" etag="XFpJMVxSxClwMbZuYc0p" type="github"><diagram id="dlQsLj6Rwz1G2t2O9-YJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-24T03:26:54.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="v_xx9sBkUNNJn00QXEZQ" version="16.4.5" type="github">
+  <diagram id="dlQsLj6Rwz1G2t2O9-YJ" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="aaeiKYwtQlHgs-gl9lvr-1" target="aaeiKYwtQlHgs-gl9lvr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-1" value="选择标签为正常的数据集并按照随访时间划分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="114" y="110" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-2" value="模型训练阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="159" y="67" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="aaeiKYwtQlHgs-gl9lvr-3" target="aaeiKYwtQlHgs-gl9lvr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-3" value="对于每个数据集的划分，使用K-means算法进行聚类" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="114" y="222" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="aaeiKYwtQlHgs-gl9lvr-4" target="aaeiKYwtQlHgs-gl9lvr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-4" value="对于每个数据集的划分聚类得到的数据簇，取每个数据簇中距离该数据簇聚类中心最近的前30%的数据，重新构造数据集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="114" y="334" width="196" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-7" value="根据重新构造的数据集，使用SVDD算法训练SVDD分类器，得到SVDD分类器集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="114" y="503" width="196" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="aaeiKYwtQlHgs-gl9lvr-9" target="aaeiKYwtQlHgs-gl9lvr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-9" value="将待检测随访记录转化为特征向量，并将患者描述的文本部分转化为情感评分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="462" y="110" width="196" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-10" value="异常检测阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="507" y="67" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="aaeiKYwtQlHgs-gl9lvr-11" target="aaeiKYwtQlHgs-gl9lvr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-11" value="将待检测随访记录特征向量按照随访时间划分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="462" y="238" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="aaeiKYwtQlHgs-gl9lvr-13" target="aaeiKYwtQlHgs-gl9lvr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-13" value="对于待检测随访记录特征向量的划分，将每个划分输入至其对应随访时间的SVDD分类器中，得到异常检测结果集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="462" y="350" width="196" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="aaeiKYwtQlHgs-gl9lvr-15" value="对异常检测结果集中的全部结果做或运算，得到待检测随访记录内容异常检测结果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="462" y="506" width="196" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
