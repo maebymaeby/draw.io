@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T03:51:28.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.5" etag="obsbk5tWd-1waX_DuG0M" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-24T03:59:55.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Nc9qTzmRL36Q7jpUysr-" version="16.4.5" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1221" dy="578" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S1ak9HeTfehK7V3jq6d_-0" target="S1ak9HeTfehK7V3jq6d_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-0" value="根据“一种随访记录数据集构造方法”的模型阶段，训练LSTM模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="108" y="133" width="182" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-2" value="模型训练和数据集构造阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="98" y="87" width="202" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S1ak9HeTfehK7V3jq6d_-3" target="S1ak9HeTfehK7V3jq6d_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-3" value="根据“一种随访记录数据集构造方法”的数据集构造阶段，建立随访数据集和特征映射表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="108" y="253" width="182" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S1ak9HeTfehK7V3jq6d_-5" target="S1ak9HeTfehK7V3jq6d_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-5" value="根据“一种基于SVDD的随访记录内容检测方法”的模型训练阶段，训练SVDD分类器集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="108" y="396" width="182" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-6" value="根据“一种基于孪生神经网络的随访记录时序特征相似度检测方法”的模型训练阶段，训练正常随访记录时序特征相似度检测孪生神经网络和异常随访记录时序特征相似度检测孪生神经网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="108" y="538" width="182" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-9" value="异常检测阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="494" y="87" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S1ak9HeTfehK7V3jq6d_-10" target="S1ak9HeTfehK7V3jq6d_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-10" value="使用映射表将待检测随访记录转化为特征向量，并使用LSTM模型将患者描述部分转化为情感评分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="456" y="133" width="182" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S1ak9HeTfehK7V3jq6d_-11" target="S1ak9HeTfehK7V3jq6d_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-11" value="根据“一种基于SVDD的随访记录内容检测方法”的异常检测阶段，得到待检测随访记录内容检测结果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="456" y="263" width="182" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S1ak9HeTfehK7V3jq6d_-13" target="S1ak9HeTfehK7V3jq6d_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-13" value="根据“一种基于孪生神经网络的随访记录时序特征相似度检测方法”的相似度检测阶段，得到待检测随访记录的正常/异常相似度集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="456" y="396" width="182" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="S1ak9HeTfehK7V3jq6d_-15" value="根据“一种基于随访记录数据集的异常检测方法”，计算待检测随访记录的时序特征异常检测结果，并结合内容特征异常检测结果得到待检测随访记录异常检测结果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="456" y="569" width="182" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
