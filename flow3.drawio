@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T03:27:18.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.5" etag="suyJaLH27GA9FYCvVVbq" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-24T03:42:33.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5HeEJGKqfdkNO5owYlSS" version="16.4.5" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1038" dy="491" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="1x8K_8DM6tCcktU46hOf-1" value="模型训练阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="161.5" y="75" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-3" target="1x8K_8DM6tCcktU46hOf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-3" value="根据随访记录数据集的划分，构造正常随访记录时序特征正样本对集、异常随访记录时序特征正样本对集和随访记录时序特征负样本对集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="83" y="244" width="263" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-7" target="1x8K_8DM6tCcktU46hOf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-7" value="对于随访记录数据集，先按照正常/异常标签划分，再按照患者姓名划分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="83" y="125" width="263" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-9" target="1x8K_8DM6tCcktU46hOf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-9" value="根据正常随访记录时序特征正样本对集和随访记录时序特征负样本对集，训练正常随访记录时序特征相似度检测孪生神经网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="83" y="404" width="263" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-11" value="根据异常随访记录时序特征正样本对集和随访记录时序特征负样本对集，训练异常随访记录时序特征相似度检测孪生神经网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="83" y="547" width="263" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-13" value="模型训练阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="559.5" y="75" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-14" target="1x8K_8DM6tCcktU46hOf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-14" value="将待检测随访记录转化为特征向量，并将患者描述的文本部分转化为情感评分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.5" y="125" width="216" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-15" target="1x8K_8DM6tCcktU46hOf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-15" value="构造正常随访记录时序特征相似度检测数据对集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.5" y="244" width="216" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-16" target="1x8K_8DM6tCcktU46hOf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-16" value="将正常随访记录时序特征相似度检测数据对集输入至正常随访记录时序特征相似度检测孪生神经网络，得到待检测随访记录的正常相似度集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.5" y="363" width="216" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1x8K_8DM6tCcktU46hOf-19" target="1x8K_8DM6tCcktU46hOf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-19" value="构造异常随访记录时序特征相似度检测数据对集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.5" y="536" width="216" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="1x8K_8DM6tCcktU46hOf-21" value="将异常随访记录时序特征相似度检测数据对集输入至异常随访记录时序特征相似度检测孪生神经网络，得到待检测随访记录的异常相似度集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.5" y="655" width="216" height="121" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
