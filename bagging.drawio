@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T17:14:38.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="17.2.1" etag="DpukFkbRkSHGgGpYRId3" type="github"><diagram id="5EaRxbhFCxEXO8lOIbXE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:16:57.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="RJyWPe8kVfqCZisW34LZ" version="17.2.1" type="github">
+  <diagram id="5EaRxbhFCxEXO8lOIbXE" name="Page-1">
+    <mxGraphModel dx="1221" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="javVgyaqQuCQBSuycCut-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="396" width="760" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-5" target="javVgyaqQuCQBSuycCut-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-5" target="javVgyaqQuCQBSuycCut-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="147" />
+              <mxPoint x="140" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-5" target="javVgyaqQuCQBSuycCut-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="147" />
+              <mxPoint x="730" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-5" value="训练数据集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="29" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-7" target="javVgyaqQuCQBSuycCut-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-7" value="训练样本1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-9" target="javVgyaqQuCQBSuycCut-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-9" value="训练样本2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-11" target="javVgyaqQuCQBSuycCut-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-11" value="训练样本n" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-12" value="&amp;nbsp;......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="515" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-14" target="javVgyaqQuCQBSuycCut-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-14" value="基学习算法1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-16" value="基学习器1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-18" target="javVgyaqQuCQBSuycCut-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-18" value="基学习算法2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-20" value="基学习器2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-21" value="&amp;nbsp;......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="515" y="317" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-23" value="&amp;nbsp;......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="515" y="456" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-25" target="javVgyaqQuCQBSuycCut-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-25" value="基学习算法n" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-26" value="基学习器n" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-28" target="javVgyaqQuCQBSuycCut-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-28" value="集成学习器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-30" target="javVgyaqQuCQBSuycCut-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-30" value="测试数据集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="115.5" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-31" value="预测结果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="javVgyaqQuCQBSuycCut-36" target="javVgyaqQuCQBSuycCut-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-36" value="结合算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="597" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544" y="147" as="sourcePoint" />
+            <mxPoint x="544" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="javVgyaqQuCQBSuycCut-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.9999999999998" y="533" as="sourcePoint" />
+            <mxPoint x="285" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="javVgyaqQuCQBSuycCut-39" value="&lt;span style=&quot;font-size: 16px&quot;&gt;随机采样&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="367" y="110" width="74" height="19" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
